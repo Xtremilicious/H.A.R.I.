@@ -156,7 +156,7 @@ export default class Reports extends Component {
           Patient Report
         </div>
         <div className="grid1">
-            <img className="patient-img" src={`http://localhost:3000/${img}`} alt="" />
+            <img className="patient-img" src={`https://hari-app.netlify.com/${img}`} alt="" />
           <div className="main-info">
             <div className="patient-name">{name}</div>
             <div className="age">Age: {age}</div>
@@ -194,7 +194,7 @@ export default class Reports extends Component {
       </div>
       <div class="modal-body">
       <div className="grid1">
-      <img className="patient-img" src={`http://localhost:3000/${img}`} alt="" />
+      <img className="patient-img" src={`https://hari-app.netlify.com/${img}`} alt="" />
           <div className="main-info">
             <div className="patient-name">{name}</div>
             <div className="age">Age: {age}</div>

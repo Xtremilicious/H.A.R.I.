@@ -30,8 +30,8 @@ export const Items = [
     {
       id: "H17280X2",
       img: "img/boi2.png",
-      name: "Usneek Chokro",
-      gender: "Trans",
+      name: "Ushnik Chakra",
+      gender: "Male",
       age: "21",
       pastMedicalHistory: "Cough",
       symptoms: "Sneezing",
@@ -45,8 +45,8 @@ export const Items = [
       id: "H17280X3",
       img: "img/boi.png",
       name: "Satyam Dey",
-      gender: "Female",
-      age: "20",
+      gender: "Male",
+      age: "26",
       pastMedicalHistory: "Nothing",
       symptoms: "Nothing",
       reportData: {
