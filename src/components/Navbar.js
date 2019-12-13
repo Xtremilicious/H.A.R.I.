@@ -16,7 +16,7 @@ export default class Navbar extends Component {
     render() {
         return (
             <Wrapper className="">
-                HARI - Health Assurance for Rural India
+                H.A.R.I. - Health Assurance for Rural India
             </ Wrapper>
         )
     }

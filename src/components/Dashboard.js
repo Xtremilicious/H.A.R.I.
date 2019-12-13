@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChartBar, faFileMedicalAlt, faFileMedical, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
-import {Switch, Route, Link} from 'react-router-dom';
+import {Switch, Route, Link, Redirect} from 'react-router-dom';
 import Analytics from './Analytics';
 import AllReports from "./AllReports";
 import MyReports from "./MyReports";
@@ -64,9 +64,11 @@ export default class Dashboard extends Component {
         </div>
         <div>
             <Switch>
-                <Route path="/analytics" component={Analytics}/>
-                <Route path="/all-reports" component={AllReports}/>
-                <Route path="/my-reports" component={MyReports}/>
+              Welcome
+              <Route exact path="/analytics" component={Analytics}/>
+              
+                <Route exact path="/all-reports" component={AllReports}/>
+                <Route exact path="/my-reports" component={MyReports}/>
             </Switch>
         </div>
       </Wrapper>
