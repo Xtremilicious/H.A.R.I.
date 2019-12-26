@@ -37,13 +37,14 @@ app.use('/api/user', userRoute);
 app.use('/api/patient', patientRoute);
 
 // For Production: Delivering built client for all incoming requests
-if(process.env.NODE_ENV === 'production') {
-    app.use(express.static(path.join(__dirname, 'build')));
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static( 'client/build' ));
 
-    app.get('/*', function(req, res) {
-        res.sendFile(path.join(__dirname, 'build', 'index.html'));
-    })
+    app.get('*', (req, res) => {
+        res.sendFile(path.join(__dirname, 'client', 'build', 'index.html')); // relative path
+    });
 }
+
 
 // Starting Server
 app.listen(port, error => {
