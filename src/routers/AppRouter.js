@@ -53,7 +53,7 @@ const AppRouter = () => (
         
       <Navbar/>
         <Switch>
-          <PublicRoute exact path="/" component={Landing} />
+          <PublicRoute exact path="/" component={Login} />
           <PublicRoute path="/login" component={Login} />
           <PrivateRoute path="/dashboard" component={Dashboard} />
           <PublicRoute path="/signup" component={Register} />
