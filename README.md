@@ -1,5 +1,5 @@
 # H.A.R.I.
-Health Assurance for Rural India Prototype
+Health Assurance for Rural India Prototype | Build for Digital India powered by Google 
 
 ➕HARI (Health Assurance for Rural India) aims to bridge the gap between needy patients of rural India and experience and skilled professionals from bigger cities.
 
