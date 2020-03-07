@@ -5,4 +5,7 @@ Health Assurance for Rural India Prototype
 
 ⭐See Proposal here: https://drive.google.com/open?id=1AGE08PneQ9s3KngNowCQ3SJ7d2Ig8u-M
 
-![HARI Dashboard](https://i.ibb.co/bbjw9kt/Screen-Shot-20200307212656.png)
+<p align="center">
+  <img src="https://i.ibb.co/wpPPBqk/Screen-Shot-20200307213357.png">
+</p>
+
