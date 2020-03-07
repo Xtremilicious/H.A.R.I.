@@ -118,6 +118,7 @@ const Wrapper = styled.div`
     outline: none;
     padding: 0.3rem;
     font-size: 1.4rem;
+    cursor: not-allowed;
   }
   .opened-report {
     width: fit-content;

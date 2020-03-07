@@ -118,6 +118,7 @@ const Wrapper = styled.div`
     outline: none;
     padding: 0.3rem;
     font-size: 1.4rem;
+    cursor:not-allowed;
   }
   .opened-report {
     width: fit-content;
@@ -356,7 +357,7 @@ export default class Reports extends Component {
                   <button type="button" class="btn-red" data-dismiss="modal">
                     Close
                   </button>
-                  <button type="button" class="btn-accept" disabled>
+                  <button class="btn-accept" disabled>
                     Accept
                   </button>
                 </div>
